@@ -116,3 +116,121 @@
   116  chmod +x script.sh 
   117  ls -l
   118  ./script.sh 
+    1  git
+    2  ls
+    3  mkdir revision
+    4  cd revision/
+    5  git init
+    6  ls
+    7  ls -la
+    8  cd .git/
+    9  ls
+   10  cd branches/
+   11  ls
+   12  cd ..
+   13  cd refs/
+   14  ls
+   15  cd heads/
+   16  ls
+   17  cd ../..
+   18  cd ..
+   19  ls
+   20  git config --help
+   21  git config --list
+   22  git config --username Raj Manohar
+   23  git config --global user.name "Raj Manohar"
+   24  git config --global user.email "rajmanohar19@gmail.com"
+   25  git config --list
+   26  ls
+   27  cd ~/.ssh
+   28  ls
+   29  ssh-keygen -o -t rsa -C "rajmanohar19@gmail.com"
+   30  ls
+   31  cat id_rsa.pub 
+   32  cd 
+   33  cd revision/
+   34  ls
+   35  git clone https://github.com/manohar217/Linux.git
+   36  ls
+   37  cd linux
+   38  cd Linux/
+   39  ls
+   40  ls -al
+   41  mkdir folder
+   42  cd folder
+   43  cd ..
+   44  rmdir folder/
+   45  ls
+   46  touch file1
+   47  nano file2
+   48  cat file2
+   49  vim file3
+   50  ls -lat
+   51  ls -la
+   52  ls -lath
+   53  ls -lah
+   54  rm file1
+   55  rm -r file2
+   56  rm -rf file3 
+   57  ls
+   58  touch a1
+   59  vim a2
+   60  cp a2 a3
+   61  ls
+   62  cat a3
+   63  cat a2
+   64  mkdir copy
+   65  cp -r a* copy/
+   66  cd copy/
+   67  ls
+   68  ls a1
+   69  cd ..
+   70  ls copy
+   71  rmdir copy
+   72  rm -r copy/
+   73  ls
+   74  rm -r a2 a3
+   75  ls
+   76  vim script.sh
+   77  crontab -e
+   78  pwd
+   79  crontab -e
+   80  vim script.sh 
+   81  ls
+   82  vim script.sh 
+   83  touch History
+   84  ls
+   85  ls -l
+   86  cat script.sh 
+   87  history>>sample
+   88  ls
+   89  ls -l
+   90  rm sample 
+   91  ls
+   92  git remote origin list
+   93  git remote -v
+   94  ls -l
+   95  git status
+   96  ls
+   97  rm -r a1
+   98  ls
+   99  cat script.sh 
+  100  history>>sample
+  101  cat sample 
+  102  rm -r sample 
+  103  cat script.sh 
+  104  vim script.sh 
+  105  git remote -v
+  106  git add .
+  107  git status
+  108  git commit -m "basic linux commands" .
+  109  git status
+  110  git push origin main 
+  111  vim script.sh 
+  112  git remote add ssh git@github.com:manohar217/Linux.git
+  113  git remote -v
+  114  crontab -e
+  115  ls -l
+  116  chmod +x script.sh 
+  117  ls -l
+  118  ./script.sh 
