@@ -4518,3 +4518,321 @@
   313  echo $?
   314  vi script.sh 
   315  ./script.sh 
+    1  git
+    2  ls
+    3  mkdir revision
+    4  cd revision/
+    5  git init
+    6  ls
+    7  ls -la
+    8  cd .git/
+    9  ls
+   10  cd branches/
+   11  ls
+   12  cd ..
+   13  cd refs/
+   14  ls
+   15  cd heads/
+   16  ls
+   17  cd ../..
+   18  cd ..
+   19  ls
+   20  git config --help
+   21  git config --list
+   22  git config --username Raj Manohar
+   23  git config --global user.name "Raj Manohar"
+   24  git config --global user.email "rajmanohar19@gmail.com"
+   25  git config --list
+   26  ls
+   27  cd ~/.ssh
+   28  ls
+   29  ssh-keygen -o -t rsa -C "rajmanohar19@gmail.com"
+   30  ls
+   31  cat id_rsa.pub 
+   32  cd 
+   33  cd revision/
+   34  ls
+   35  git clone https://github.com/manohar217/Linux.git
+   36  ls
+   37  cd linux
+   38  cd Linux/
+   39  ls
+   40  ls -al
+   41  mkdir folder
+   42  cd folder
+   43  cd ..
+   44  rmdir folder/
+   45  ls
+   46  touch file1
+   47  nano file2
+   48  cat file2
+   49  vim file3
+   50  ls -lat
+   51  ls -la
+   52  ls -lath
+   53  ls -lah
+   54  rm file1
+   55  rm -r file2
+   56  rm -rf file3 
+   57  ls
+   58  touch a1
+   59  vim a2
+   60  cp a2 a3
+   61  ls
+   62  cat a3
+   63  cat a2
+   64  mkdir copy
+   65  cp -r a* copy/
+   66  cd copy/
+   67  ls
+   68  ls a1
+   69  cd ..
+   70  ls copy
+   71  rmdir copy
+   72  rm -r copy/
+   73  ls
+   74  rm -r a2 a3
+   75  ls
+   76  vim script.sh
+   77  crontab -e
+   78  pwd
+   79  crontab -e
+   80  vim script.sh 
+   81  ls
+   82  vim script.sh 
+   83  touch History
+   84  ls
+   85  ls -l
+   86  cat script.sh 
+   87  history>>sample
+   88  ls
+   89  ls -l
+   90  rm sample 
+   91  ls
+   92  git remote origin list
+   93  git remote -v
+   94  ls -l
+   95  git status
+   96  ls
+   97  rm -r a1
+   98  ls
+   99  cat script.sh 
+  100  history>>sample
+  101  cat sample 
+  102  rm -r sample 
+  103  cat script.sh 
+  104  vim script.sh 
+  105  git remote -v
+  106  git add .
+  107  git status
+  108  git commit -m "basic linux commands" .
+  109  git status
+  110  git push origin main 
+  111  vim script.sh 
+  112  git remote add ssh git@github.com:manohar217/Linux.git
+  113  git remote -v
+  114  crontab -e
+  115  ls -l
+  116  chmod +x script.sh 
+  117  ls -l
+  118  ./script.sh 
+  119  ls -l
+  120  ps -ef
+  121  ps -ef | grep script.sh 
+  122  date
+  123  ps -ef | grep script.sh 
+  124  date
+  125  ps -ef | grep script.sh 
+  126  date
+  127  crontab -e
+  128  ls
+  129  git status
+  130  ls
+  131  git status
+  132  crontab -e
+  133  vim script.sh 
+  134  ls
+  135  vim script.sh 
+  136  crontab -e
+  137  ls
+  138  crontab -e
+  139  ls
+  140  crontab -e
+  141  pwd
+  142  ls
+  143  crontab -e
+  144  ls
+  145  sudo -i
+  146  pwd
+  147  cat /home/vagrant/revision/Linux/script.sh 
+  148  cat /home/vagrant/revision/Linux/script.sh | sudo bash
+  149  ls
+  150  vim /etc/crontab 
+  151  crontab -e
+  152  ls
+  153  rm Date.txt 
+  154  ls
+  155  cat Date.txt 
+  156  date
+  157  crontab -e
+  158  ls
+  159  more History 
+  160  more script.sh 
+  161  cat script.sh 
+  162  more script.sh 
+  163  head script.sh 
+  164  tail script.sh 
+  165  cat sample >> script.sh 
+  166  vim a1
+  167  vim a2
+  168  cat a1 >>a2
+  169  cat a2
+  170  cat  a1
+  171  cat > a1
+  172  ls
+  173  rm -r Date.txt 
+  174  rm -r a*
+  175  ls
+  176  crontab -e
+  177  ls
+  178  crontab -e
+  179  ls
+  180  git pull
+  181  ls
+  182  ./script.sh 
+  183  git pull origin main
+  184  ls
+  185  rm -r Date.txt 
+  186  ls
+  187  vim script.sh 
+  188  ls
+  189  rm Date.txt 
+  190  ls
+  191  ./script.sh 
+  192  ls
+  193  git add .
+  194  git commit -m "updated the files" 
+  195  git push origin main
+  196  git push ssh main
+  197  ls
+  198  vim a1
+  199  ln -s A1 a1
+  200  ln -s a1 A1
+  201  ls
+  202  vim a1
+  203  cat A1 
+  204  rm a1
+  205  ls -a
+  206  ll
+  207  vim a1
+  208  ll
+  209  rm a1
+  210  ll
+  211  cat a1
+  212  cat A1
+  213  ls
+  214  rm A1
+  215  ls
+  216  crontab -e
+  217  ls
+  218  cd revision/
+  219  ls
+  220  cd Linux/
+  221  ls
+  222  ps
+  223  ps -ef
+  224  ps
+  225  top
+  226  ps
+  227  ps -aux
+  228  ps
+  229  ps -ef
+  230  free -h
+  231  free -m
+  232  free
+  233  ps
+  234  ps -ef
+  235  top
+  236  ps -ef
+  237  sleep 60
+  238  bg
+  239  fg
+  240  jobs
+  241  bg %1
+  242  fg %1
+  243  sleep 60
+  244  bg %1
+  245  jobs
+  246  fg %1
+  247  bg
+  248  bg %1
+  249  sleep 60
+  250  bg
+  251  fg
+  252  bg
+  253  fg
+  254  bg 
+  255  bg %1
+  256  jobs
+  257  fg
+  258  bg
+  259  sleep 60
+  260  jobs
+  261  bg %1
+  262  jobs
+  263  fg %1
+  264  jobs
+  265  fg %1
+  266  crontab -e
+  267  ./script.sh 
+  268  jobs
+  269  fg %1
+  270  apt install httpd
+  271  sudo apt install httpd
+  272  apt search httpd
+  273  apt search apache2
+  274  apt install apache2
+  275  sudo apt install apache2
+  276  ps
+  277  ps -ef
+  278  ps -ef | grep apache2
+  279  crontab -e
+  280  ls
+  281  crontab 
+  282  crontab -e
+  283  git pull origin main
+  284  git pull ssh main
+  285  git status
+  286  ./script.sh 
+  287  crontab -e
+  288  bg
+  289  ls
+  290  crontab -e
+  291  logout
+  292  ls -r
+  293  ls -R
+  294  vi script.sh 
+  295  ./script.sh 
+  296  vi script.sh 
+  297  ./script.sh 
+  298  vi script.sh 
+  299  ./script.sh 
+  300  vi script.sh 
+  301  ./script.sh 
+  302  vi script.sh 
+  303  ./script.sh 
+  304  vi script.sh 
+  305  ./script.sh 
+  306  vi script.sh 
+  307  ./script.sh 
+  308  vi script.sh 
+  309  ./script.sh 
+  310  $?
+  311  echo $?
+  312  ls
+  313  echo $?
+  314  vi script.sh 
+  315  ./script.sh 
+  316  vi script.sh 
+  317  ls
+  318  ./script.sh 
