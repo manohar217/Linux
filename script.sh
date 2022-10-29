@@ -2,7 +2,7 @@ history | tee -a History.txt
 git status
 git add .
 git commit -m "Adding Files @ $(date)" .
-git pushe ssh main
+git push ssh main
 if [ $? -eq 0 ]
 then
 echo "history uploaded into github successfully"
