@@ -7,5 +7,5 @@ if($?)
 {
 echo "history uploaded into github successfully"
 }
-
+fi
 
