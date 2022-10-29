@@ -3,7 +3,7 @@ git status
 git add .
 git commit -m "Adding Files @ $(date)" .
 git push ssh main
-if [$?=0]; then
+if [$? -eq 0]; then
 echo "history uploaded into github successfully"
 fi
 
