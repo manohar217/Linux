@@ -1,9 +1,6 @@
 
-history
-if [ $? -eq 0 ]
-then
-history>History.txt
-fi
+
+history &> History.txt
 git status
 git add .
 git commit -m "Adding Files @ $(date)" 
