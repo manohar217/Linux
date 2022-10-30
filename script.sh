@@ -1,7 +1,7 @@
 history > History.txt
 git status
 git add .
-git commit -m "Adding Files @ $(date)" .
+git commit -m "Adding Files @ $(date)" 
 git push ssh main
 if [ $? -eq 0 ]
 then
