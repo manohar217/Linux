@@ -1,4 +1,4 @@
-history > History.txt
+history>History.txt
 git status
 git add .
 git commit -m "Adding Files @ $(date)" 
