@@ -1,5 +1,4 @@
-
-
+#!/bin/bash
 history &> History.txt
 git status
 git add .
