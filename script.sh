@@ -1,3 +1,4 @@
+#!/bin/bash
 history > History.txt
 sleep 5
 git status
