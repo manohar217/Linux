@@ -1,6 +1,5 @@
 #!/bin/bash
-history > History.txt
-sleep 5
+history &> History.txt
 git status
 git add .
 git commit -m "Adding Files @ $(date)" 
