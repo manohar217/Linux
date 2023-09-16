@@ -1,9 +1,9 @@
-#!/bin/bash 
+#!/bin/bash
 
-i=1
+i=5;
+ while [ $i -le 10]:
+ do
+    echo "Reverse order number $i"
+   let i--;
+ done
 
-while [ $i -le 4 ]:
-do
-    echo $i
-    i++
-done
