@@ -1,7 +1,6 @@
 #!/bin/bash
-marbles = ["red", "blue", "green", "yellow", "purple"]
 
-for marble_color in "${marbles[@]}";
+for i in f1 f2 f3
 do
-    echo "This marble is $marble_color"
+    touch $i
 done
